@@ -83,9 +83,11 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Error interno en el servidor' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+// URG111 - Modificación del puerto de escucha
+app.listen(4000, () => {
+  console.log('App escuchando en el puerto 4000');
 });
+
 
 // EvoUsers - Registro de peticiones HTTP
 app.use((req, res, next) => {
