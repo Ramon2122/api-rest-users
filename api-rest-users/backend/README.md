@@ -15,3 +15,10 @@ git clone https://github.com/tu-usuario/api-rest-users.git
 npm install
 3. Inicia el servidor:
 npm start
+## Funcionalidades
+
+### Registro de Peticiones HTTP
+
+Se ha añadido una nueva funcionalidad que permite registrar las peticiones HTTP que llegan al servidor. Cada vez que se realice una petición, el servidor imprimirá en la consola el método HTTP (GET, POST, etc.) y la URL de la petición recibida.
+
+Esta funcionalidad es útil para fines de depuración y seguimiento de las peticiones en el backend.
