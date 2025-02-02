@@ -1,10 +1,18 @@
+/* DESA225 - Reorganización de imágenes */
+background-image: url('../img/backgrounds/fondo-usuarios.jpg');
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-image:url(../img/fondo-usuarios.jpg);
   }
+
+/* INC465 - Cambio de color en cabecera y pie de página */
+header, footer {
+  background-color: #3f94b6;
+}
 
   header {
     background: #052c66;
